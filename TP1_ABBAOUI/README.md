@@ -1,4 +1,5 @@
-# SecurePasswordAnalyzer
+# AwesomePasswordChecker
+
 
 `SecurePasswordAnalyzer` est une bibliothèque Java conçue pour évaluer la robustesse des mots de passe. Elle utilise des algorithmes avancés pour comparer la structure des mots de passe à des modèles prédéfinis, en mesurant leur distance par rapport à des centres de référence.
 
@@ -17,11 +18,24 @@
 
 ### Méthodes principales
 
-- **`loadClusters(File file)`** : Charge les modèles de référence à partir d'un fichier CSV.
-- **`analyzePassword(String password)`** : Génère un profil de caractéristiques pour un mot de passe.
-- **`calculateDistance(String password)`** : Calcule la distance entre le mot de passe et les centres prédéfinis.
-- **`generateHash(String password, String algorithm)`** : Produit un hachage du mot de passe avec l'algorithme spécifié (MD5 ou SHA-256).
 
+1. **`getInstance(File file)`**
+   - Initialise l'instance avec les centres de clusters chargés depuis un fichier externe.
+
+2. **`getInstance()`**
+   - Charge les centres de clusters à partir du fichier par défaut `cluster_centers_HAC_aff.csv`.
+
+3. **`maskAff(String password)`**
+   - Analyse un mot de passe et génère un **masque de caractéristiques**.
+
+4. **`getDIstance(String password)`**
+   - Calcule la **distance euclidienne minimale** entre un mot de passe donné et les centres de clusters.
+
+5. **`euclideanDistance(int[] a, double[] b)`**
+   - Méthode protégée pour calculer la **distance euclidienne** entre deux vecteurs.
+
+6. **`ComputeMD5(String input)`**
+   - Produit le **hachage MD5** d'une chaîne de caractères donnée.
 ---
 
 ## 🚀 Exemple d'utilisation
