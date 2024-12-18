@@ -16,10 +16,10 @@
 
 Cochez les éléments ci-dessous pour confirmer que tout est en ordre :
 
-- [ ] Mon code respecte les conventions de style du projet.  
-- [ ] J'ai testé mes modifications localement.  
-- [ ] J'ai documenté mon code (si nécessaire).  
-- [ ] Toutes les dépendances et configurations sont mises à jour.  
+- [x] Mon code respecte les conventions de style du projet.  
+- [x] J'ai testé mes modifications localement.  
+- [x] J'ai documenté mon code (si nécessaire).  
+- [x] Toutes les dépendances et configurations sont mises à jour.  
 
 ---
 
@@ -27,11 +27,11 @@ Cochez les éléments ci-dessous pour confirmer que tout est en ordre :
 
 Cochez ce qui correspond à vos modifications :
 
-- [ ] 🐛 **Bug fix** : Correction d’un bug existant  
-- [ ] ✨ **Feature** : Ajout d'une nouvelle fonctionnalité  
-- [ ] 🔨 **Refactoring** : Amélioration du code sans changer le comportement  
-- [ ] 📝 **Documentation** : Mise à jour de la documentation  
-- [ ] 🚀 **Performance** : Amélioration de la performance du système
+- [x] 🐛 **Bug fix** : Correction d’un bug existant  
+- [x] ✨ **Feature** : Ajout d'une nouvelle fonctionnalité  
+- [x] 🔨 **Refactoring** : Amélioration du code sans changer le comportement  
+- [x] 📝 **Documentation** : Mise à jour de la documentation  
+- [x] 🚀 **Performance** : Amélioration de la performance du système
 
 ---
 
