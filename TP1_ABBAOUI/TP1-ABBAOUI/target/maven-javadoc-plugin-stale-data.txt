@@ -1,0 +1,43 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/Administrator/TP1_ABBAOUI/TP1-ABBAOUI/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Administrator/TP1_ABBAOUI/TP1-ABBAOUI/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'TP1-ABBAOUI 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Administrator/TP1_ABBAOUI/TP1-ABBAOUI/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'TP1-ABBAOUI 1.0-SNAPSHOT API'
+TP1_ABBAOUI
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\src\main\java = 1734472683486
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\allclasses-index.html = 1734484565688
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\allpackages-index.html = 1734484565694
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\element-list = 1734484565610
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\help-doc.html = 1734484565741
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\index-all.html = 1734484565724
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\index.html = 1734484565732
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\member-search-index.js = 1734484565706
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\module-search-index.js = 1734484565697
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\overview-tree.html = 1734484565671
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\package-search-index.js = 1734484565700
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\search.html = 1734484565728
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\tag-search-index.js = 1734484565709
+C:\Users\Administrator\TP1_ABBAOUI\TP1-ABBAOUI\target\reports\apidocs\type-search-index.js = 1734484565703

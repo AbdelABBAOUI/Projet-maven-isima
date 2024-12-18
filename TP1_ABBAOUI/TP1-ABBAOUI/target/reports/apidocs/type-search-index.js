@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"TP1_ABBAOUI","l":"AwesomePasswordChecker"}];updateSearchResults();
