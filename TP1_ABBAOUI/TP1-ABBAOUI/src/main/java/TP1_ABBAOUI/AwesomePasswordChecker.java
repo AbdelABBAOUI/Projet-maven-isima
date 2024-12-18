@@ -75,7 +75,6 @@ public class AwesomePasswordChecker {
     }
 
     public AwesomePasswordChecker() {
-        //TODO Auto-generated constructor stub
     }
 
     /**
