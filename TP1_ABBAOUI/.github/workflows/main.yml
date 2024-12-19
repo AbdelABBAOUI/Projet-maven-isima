@@ -24,11 +24,11 @@ jobs:
       - name: Build with Maven
         run: mvn -B package
 
-      - name: Get version
-        run: echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
-      
       - name: Deploy to GitHub Packages
-        run: mvn deploy
+        run: |
+          mvn deploy \
+          -Dgithub.owner=AbdelABBAOUI \
+          -Dgithub.repo=Projet-maven-isima
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
@@ -41,5 +41,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: target/site
-          target-folder: docs/${{ env.VERSION }}
+          target-folder: docs/1.0-SNAPSHOT
           branch: gh-pages

@@ -96,7 +96,7 @@ Les fichiers de clusters doivent être au format **CSV**. Chaque ligne représen
 Utilise la commande suivante pour compiler ton projet :
 
 ```bash
-javac -d out/production src/secure/analyzer/SecurePasswordAnalyzer.java
+javac -d bin src/TP1_ABBAOUI/AwesomePasswordChecker.java
 ```
 
 ### Exécution
@@ -104,7 +104,7 @@ javac -d out/production src/secure/analyzer/SecurePasswordAnalyzer.java
 Exécute le programme avec la commande suivante :
 
 ```bash
-java -cp out/production secure.analyzer.Main
+java -cp bin TP1_ABBAOUI.Main
 ```
 
 ---
@@ -141,7 +141,6 @@ N'hésitez pas à ouvrir une **issue** ou à proposer une **pull request** si vo
 ---
 
 ### Auteur
-
 - **Nom :** Abdelmjid Abbaoui 
 - **Projet réalisé dans le cadre de :** TP1 revue de code
 - **Date :** Decembre 2024
