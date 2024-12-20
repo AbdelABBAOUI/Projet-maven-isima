@@ -83,7 +83,7 @@ Les fichiers de clusters doivent être au format **CSV**. Chaque ligne représen
 
 ---
 
-## 🛠️ Les Dépendances
+## 🛠️ Dépendances
 
 - **Java SE 8+** : Aucune dépendance externe supplémentaire n'est requise.
 
