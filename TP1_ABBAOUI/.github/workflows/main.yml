@@ -40,6 +40,6 @@ jobs:
       - name: Deploy Documentation
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: target/site
-          target-folder: docs/1.0-SNAPSHOT
+          folder: target/site/apidocs
           branch: gh-pages
+          target-folder: docs/1.0-SNAPSHOT
