@@ -1,7 +1,7 @@
 # AwesomePasswordChecker
 
 
-`SecurePasswordAnalyzer` est une bibliothèque Java conçue pour évaluer la robustesse des mots de passe. Elle utilise des algorithmes avancés pour comparer la structure des mots de passe à des modèles prédéfinis, en mesurant leur distance par rapport à des centres de référence.
+`AwesomePasswordChecker` est une bibliothèque Java conçue pour évaluer la robustesse des mots de passe. Elle utilise des algorithmes avancés pour comparer la structure des mots de passe à des modèles prédéfinis, en mesurant leur distance par rapport à des centres de référence.
 
 ---
 
@@ -40,19 +40,19 @@
 
 ## 🚀 Exemple d'utilisation
 
-Voici un exemple simple d'utilisation de la bibliothèque `SecurePasswordAnalyzer` :
+Voici un exemple simple d'utilisation de la bibliothèque `AwesomePasswordChecker` :
 
 ### Code Java
 
 ```java
-import secure.analyzer.SecurePasswordAnalyzer;
+import secure.analyzer.AwesomePasswordChecker;
 import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
         try {
             // Initialisation et chargement des clusters
-            SecurePasswordAnalyzer analyzer = new SecurePasswordAnalyzer();
+            AwesomePasswordChecker analyzer = new AwesomePasswordChecker();
             analyzer.loadClusters(new File("data/cluster_model.csv"));
 
             // Analyse d'un mot de passe
@@ -135,7 +135,7 @@ Ce projet est distribué sous la licence **MIT**. Consultez le fichier `LICENSE`
 
 ## 🤝 Remerciements
 
-Merci d'utiliser **SecurePasswordAnalyzer** !  
+Merci d'utiliser **AwesomePasswordChecker** !  
 N'hésitez pas à ouvrir une **issue** ou à proposer une **pull request** si vous avez des suggestions.
 
 ---
